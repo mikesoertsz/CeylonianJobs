@@ -1,0 +1,155 @@
+/*
+
+CLIENT COLOUR HEX CODES
+1. 
+2. 
+
+*/
+
+div, ul, input, textarea, li							{margin: 0; padding: 0;}
+li														{list-style: none;}
+
+/*! normalize.css 2012-02-07T12:37 UTC - http://github.com/necolas/normalize.css */article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/* --------------------------------- RESET -------------- */
+
+a:focus, input:focus, textarea:focus, select:focus		{outline: none;}
+
+/* ====================================================== */
+/* --------------------------------- BASE STYLES -------- */
+/* ====================================================== */
+
+.clear 													{clear: both; height: 0px;}
+.fleft													{float: left;}
+.fright													{float: right;}
+
+/* border												{border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px;}
+/* shadow												{box-shadow: 0px 2px 3px 0px #333; -webkit-box-shadow: 0px 2px 3px 0px #333;-o-box-shadow: 0px 2px 3px 0px #333;}
+
+/* ====================================================== */
+/* --------------------------------- FONTS -------------- */
+/* ====================================================== */
+
+/*    Fonts for this stylesheet: 'Open Sans', san serif;  */
+
+h1														{font-family: 'Wire One', sans-serif;font-size: 40px; font-weight:400; line-height:40px; margin: 0; padding: 0;color:#789b64;}
+h2														{font-family: 'Wire One', sans-serif;font-size:28px; font-weight:400; line-height:50px; margin: 0; padding: 0;}
+h3														{font-family: 'Open Sans', sans-serif;font-size: 14px; font-weight:400; line-height:20px; margin: 0; padding: 0;}
+h4														{font-family: 'Open Sans', sans-serif;font-size: 13px; font-weight:400; line-height:15px; margin: 0; padding: 0;}
+h5														{font-family: 'Open Sans', sans-serif;font-size: 10px; font-weight:400; line-height:13px; margin: 0; padding: 0;}
+p														{font-family:______; font-size: ___; font-weight:____; line-height:____; margin: 0; padding: 0;}
+a														{color:#000;text-decoration: none; text-transform: none;}
+
+/* ====================================================== */
+/* --------------------------------- CORE STRUCTURE ----- */
+/* ====================================================== */
+
+body,html 												{height:100%; width: 100%; color:black; background:#fff; font-size:12px; font-family: 'Open Sans'; font-weight: 400;margin: 0; padding: 0;text-align: center;}
+#wrapper												{height:100%; width: 100%;text-align: left;}
+input													{height:25px; border:1px solid #eee; box-shadow: inset 0 1px 2px 0 #d7d7d7; -webkit-box-shadow: inset 0 1px 2px 0 #d7d7d7; -o-box-shadow: inset 0 1px 2px 0 #d7d7d7; padding-left: 8px; font-family: 'Open Sans', sans-serif; font-size:12px; line-height: 20px;border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px; padding-top: 3px;}
+
+/* --------------------------------- HEADER ------------- */
+
+#header													{height:50px; width: 100%; border-bottom:1px solid #eee; z-index:2; box-shadow: 0 1px 1px 0 #7aa7bf; -webkit-box-shadow: 0 1px 1px 0 #7aa7bf; -o-box-shadow:0 1px 1px 0 #7aa7bf;}
+a#main_logo												{height:50px; width:140px; background:url(../img/img_logomain.png) no-repeat center center; float: left; background-size: 120px;display: block;}
+#loader													{height:50px; width: 30px; background:url(../img/131.gif) no-repeat center 16px;float: left;}
+
+ul#top_nav												{height:50px;margin: 0; padding: 0;float: right;}
+ul#top_nav li											{list-style: none;float: left;margin: 0; padding: 0;border-left:1px solid #efefef;}
+ul#top_nav li a											{height:50px;display: block;margin: 0;padding: 0 10px; overflow: hidden;position: relative;line-height: 53px;}
+ul#top_nav li a:hover									{background:#f8f8f8;height: 50px;}
+ul#top_nav li a.search									{text-indent: -9999px;}
+
+.icontop												{height:16px;width:16px;background: url(../img/sprite_icons.png) no-repeat;display: block;float: left;margin: 18px 10px 0 0;}
+.icontop.search											{background-position:0 0;margin:18px 10px 0 12px;}
+.icontop.messages										{background-position:-16px 0;}
+
+
+#user_login_holder										{height:50px;width:auto; border-left:1px solid #efefef; float: right; margin: 0; padding: 0 10px}
+#user_profilepic										{height:34px; border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px; background: #efefef; margin:8px;float: left;overflow: hidden;}
+#user_profilename										{line-height: 53px;font-size:16px;width:auto;float: left;}
+
+#header_sub												{height:30px; width: 100%; background:#86b8d3; z-index:1;border-bottom: 1px solid #7aa7bf;overflow: hidden;}
+ul#subnav												{height:30px; margin: 0; padding: 0;}
+ul#subnav li											{float: left;list-style: none;margin: 0; padding: 0;}
+ul#subnav li a											{font-family: 'Open Sans', sans-serif; font-size: 11px; font-weight:600;height:30px;line-height: 32px; color:#323a46;display: block;padding: 0 10px;}
+ul#subnav li a:hover									{background:#93c5e0;/* color:#fff; */}
+.iconsub												{height:16px;width:16px;background: url(../img/sprite_icons.png) no-repeat;display: block;float: left;margin: 8px 6px 0 0;}
+.iconsub.home											{background-position:-32px -32px;}
+.iconsub.resume											{background-position:-16px -32px;}
+.iconsub.favs											{background-position:-32px -0px;}
+.iconsub.about											{background-position:-48px 0px;}
+.iconsub.jobs											{background-position:-16px -32px;}
+.iconsub.candidates										{background-position:-48px -32px;}
+/* --------------------------------- BODY -------------- */
+
+#main_body												{height:100%; width: 100%;  background:#efefef;background:#e4e5e7; z-index: 0;}
+
+#left_column											{width:180px;height:100%; background:#2a2f35; float: left;}
+ul#main_nav												{width:180px;margin: 0; padding: 0;}
+ul#main_nav	li											{width:180px;list-style: none; margin: 0;}
+ul#main_nav	li a, a#left_nav							{width:160px;height:26px; line-height: 26px; display: block; text-transform: capitalize; color:#f7f7f8; padding:0 10px 0 12px; margin: 0; text-align: left;font-family:'Open Sans', sans-serif; font-weight:400;font-size:12px; background:#383c47;float: left;}
+ul#main_nav	li a:hover, a#left_nav:hover				{background:#494b58;}
+
+.mainnav_expanded										{width:180px;margin: 0; padding: 0 0 0 25px;background: #2e323b;color:#eee}
+
+#mid_column												{width:800px;height:100%; background:#ffffff; float: left;border-right: 1px solid #CFCFCF;}
+
+/* --------------------------------- RIGHT CLMN --------- */
+#right_column											{height:100%; width: 300px; background:#e4e5e7; float: left;padding:20px;}
+.rightcolumn_button										{height:30px; width:260px;line-height: 30px; font-family: 'Open Sans', sans-serif; font-size:13px; font-weight:400; color:#2e323b; background:#fff; border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px;display: block;text-align: center;}
+.rightcolumn_button:hover								{background:#86b8d3; color: #fff;}
+#footer													{}
+
+
+/* ====================================================== */
+/* --------------------------------- PAGE STYLES -------- */
+/* ====================================================== */
+
+/* --------------------------------- HOME PAGE ---------- */
+
+ul#job_featuredEmployers								{width:800px;margin: 0; padding: 0;}
+ul#job_featuredEmployers li								{width:200px; height:180px;float: left;margin: 0; padding: 0;}
+
+input#search_jobtitle									{width:50%; margin:5px 10px 0 10px}
+input#search_keywords									{width:44%; margin:5px 5px 0 0px}
+
+/* --------------------------------- JOB LIST ----------- */
+
+#job_list_filter										{width:800px;height:40px;margin: 0; padding: 0; border-bottom:1px solid #eee;}
+
+ul#joblist												{margin: 0; padding: 0; width: 800px;}
+ul#joblist li											{list-style: none; width: 800px; height:60px;border-bottom: 1px solid #eee;font-size:11px; overflow: hidden;}
+ul#joblist a											{display:block;background: #fff;}
+ul#joblist a:hover										{background:#f8f8f8;}
+ul#joblist li div										{height:30px; float: left;padding:10px 10px 0 10px;/* border-right:1px solid #efefef; */}
+ul#joblist li .joblist_name								{width:320px;padding-left:20px}
+ul#joblist li .joblist_location							{width:90px;}
+ul#joblist li .joblist_companyname						{width:170px;}
+ul#joblist li .joblist_logo								{width:30px;padding:5px 5px;}
+ul#joblist li .joblist_logo_1							{width:30px; height:40px;overflow:hidden;}
+ul#joblist li .joblist_fav								{width:30px;float: right;padding:10px 6px;}
+/*
+ul#job_list	li											{}
+ul#job_list	li											{}
+*/
+
+/* --------------------------------- JOBS FULL DESC ----- */
+
+#job_cover												{width:800px; height:70px; overflow:hidden; margin: 0; padding: 0;}
+#job_container											{width:800px; min-height: 500px; border-top:1px solid #eee;padding: 25px;}
+
+#job_stats												{width:500px; font-family:'Open Sans', sans-serif; font-weight: 400; text-transform:uppercase; color:#999; font-size:11px;}
+#job_related											{border-top: 1px solid #eee; width: 800px;min-height:100px;}
+
+/* --------------------------------- RESUME BUILDER ----- */
+#accordion												{margin:0px 0 30px 0; padding: 0;width:798px;border:1px solid #eee;}
+h3.resume_form_section									{display: block; height:30px; line-height: 30px; background:#fafafa; border-bottom:1px solid #eee; font-family:'Open Sans', sans-serif; font-size:13px; font-weight:400;margin: 0; padding:0 0 0 15px;color:#323a46; text-transform:capitalize;}
+h3.resume_form_section:hover							{/* background:#86b8d3; */}
+h3.resume_form_section:focus							{outline:none;}
+.form_content											{width:750px; margin: 0 auto;background:#fff;padding:15px;}
+
+ul.resumeform											{width:500px; float: right;margin: 0; padding:15px;}
+ul.resumeform li										{list-style: none;}
+ul.resumeform li label									{}
+ul.resumeform li input									{}
